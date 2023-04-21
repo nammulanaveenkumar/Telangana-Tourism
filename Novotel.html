@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novotel</title>
+    <style>
+        body {
+            background-image: url(background.jpg);
+            background-size: 100%;
+
+        }
+
+        .title1 {}
+
+        a {
+            text-decoration: none;
+            color: rgb(4, 47, 140);
+            
+
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        .introbg {
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 0%;
+        }
+
+        .introtext {
+            padding-top: 7%;
+            padding-bottom: 7%;
+        }
+
+        .tb {
+            width: 100%;
+            margin-left: 7%;
+            
+        }
+        .txt{
+            color: white;
+            width: 40%;
+            text-align: justify;
+            
+            
+            
+        }
+        .txt1{
+            width: 50%;
+            
+        }
+        .fieldsets{
+            width: 70%;
+            
+            border: 2px solid green;
+            
+        }
+        .inputs{
+            width: 90%;
+            height: 20px;
+            margin-left: 5%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .inputs1{
+             width: 20%;
+             height: 20px;
+             margin-left: 5%;
+             margin-top: 2%;
+             margin-bottom: 2%;
+        }
+        .inputs2{
+            width: 67%;
+            height: 20px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+
+        }
+        .inputs3{
+            margin-left: 5%;
+            
+        }
+        .inputs4{
+            width: 42%;
+            height: 20px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 5%;
+        }
+        .inputs5{
+            width: 42%;
+            height: 20px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 3%;
+        }
+        .inputs6{
+            width: 42%;
+            height: 20px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 5%;
+        }
+        .inputs7{
+            width: 42%;
+            height: 20px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 3%;
+        }
+        .btn{
+            width: 90%;
+            height: 30px;
+            margin-left: 5%;
+            margin-top: 3%;
+            margin-bottom: 2%;
+            background-color: rgb(4, 47, 140);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title1">
+        <img src="tsemblem.png"
+            style="width: 70px;height: 70px;margin-left: 2%;">
+        <big style="font-size:180%;color: rgb(4, 47, 140);margin-left: 3%;"><span
+                style="color: green;">T</span>elangana</big> <small
+            style="font-size:smaller;color: rgb(4, 47, 140);"><span style="color: green;">T</span>ourism</small>
+        <a href="Home.html"><small style="font-size:60%;margin-right: 2%;margin-left: 30%;">Home</small></a>
+        <a href="Heritages.html"><small style="font-size:60%;margin-right: 2%;">Heritages</small></a>
+        <a href="Hotels.html"><small style="font-size:60%;margin-right: 2%;">Hotels</small></a>
+        <a href="Gallery.html"><small style="font-size:60%;margin-right: 2%;">Gallery</small></a>
+    </h1>
+
+    <div class="introbg">
+        <div class="introtext">
+            <table class="tb">
+                
+                <tr >
+                   <td class="txt">
+                    <h1 style="text-align: center;color: rgb(4, 47, 140);background-color: yellow;width: 400px;margin-left: 12%;">NOVOTEL</h1>
+                    This polished business resort is a collection of idyllic buildings surrounding a central pool with a waterfall and sun lounge, and is considered as one of the best hotels in Hyderabad. Adorned with contemporary amenities and statement furnishing, their rooms strike the perfect balance between comfort and class. Two award-winning restaurants, a cosy café, 2 bars and a Mexican cantina are available here. Unique Asian therapies are offered at their spa.
+                    <br><br>
+                    <h2 style="text-align: center;">"Stay Safe"<br> "Stay Comfortable"</h2>
+                    <br><br>
+                    <br><br>
+
+                   </td>
+                   <td class="txt1">
+                    <form>
+                        <fieldset class="fieldsets">
+                            <legend style="color: rgb(4, 47, 140);font-weight: bolder;font-size:larger;">Personal Details</legend>
+                            <input type="text" name="Name" placeholder="Enter Name*" class="inputs">
+                            <input type="email" name="Email" placeholder="Enter Email ID*" class="inputs">
+                            <input type="tel" name="Code" value="+91" readonly class="inputs1">
+                            <input type="tel" name="Number" placeholder="Mobile Number*" class="inputs2">
+                            <input type="number" name="Number" placeholder=" Guests*" class="inputs4">
+                            <input type="number" name="Number" placeholder="Rooms*" class="inputs5">
+                            <label style="color: white;margin-left: 5%;">Check-In*</label>
+                            <label style="color: white;margin-left: 32%;">Check-Out*</label><br>
+                            <input type="date" name="Date" placeholder="From*" class="inputs6">
+                            <input type="date" name="Dtae" placeholder="To*" class="inputs7">
+                            <lebel style="color: white;margin-left: 5%;">Room Type*</lebel>
+                            <select style="margin-top: 2%;">
+                                <option>Select</option>
+                                <option>Classic</option>
+                                <option>Deluxe</option>
+                                <option>Premium</option>
+                            </select>
+                            <br><br>
+                            <div style="text-align: justify;width: 90%;margin-left: 35%;color: white;"><input type="checkbox" class="inputs3">
+                                I agree T&C *
+                            </div>
+                            <button class="btn">Book Room</button>
+    
+                        </fieldset>
+                    </form>
+                   </td>
+                </tr>
+                </table>
+        </div>
+    </div>
+</body>
+
+</html>
